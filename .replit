@@ -1,0 +1,8 @@
+modules = ["python-3.12", "bash", "web"]
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 8501
+externalPort = 80
